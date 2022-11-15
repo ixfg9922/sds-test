@@ -1,0 +1,40 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PodMonitor
+metadata:
+  name: {{.Release.Name}}
+  namespace: {{.Release.Namespace}}
+  labels: 
+    release: sds-prometheus
+spec:
+  selector:
+    matchLabels:
+      intersystems.com/kind: IrisCluster
+      intersystems.com/name: {{.Release.Namespace}}
+      intersystems.com/role: iris
+  namespaceSelector:
+    matchNames:
+    - {{.Release.Namespace}}
+  podMetricsEndpoints:
+  - port: webserver
+    path: /api/monitor/metrics
+    interval: 1s
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: {{.Release.Name}}
+  namespace: {{.Release.Namespace}}
+  labels:
+    release: sds-prometheus
+spec:
+  selector:
+    matchLabels:
+      intersystems.com/kind: IrisCluster
+      intersystems.com/name: {{.Release.Namespace}}
+  namespaceSelector:
+    matchNames:
+    - {{.Release.Namespace}}
+  endpoints:
+  - port: webserver
+    path: /api/monitor/metrics
+    interval: 1s

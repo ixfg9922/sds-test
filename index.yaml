@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  isc-iris-db:
+  - annotations:
+      intersystems/sds-category: core,database
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: InterSystems IRIS Database
+    apiVersion: v2
+    appVersion: 1.2.2
+    created: "2022-11-15T17:58:40.407118-05:00"
+    description: Use this service to securely store you solution's tables. This service collaborates with many other services as either a destination for data or a source of data. A Kafka Connector Service for instance, can only be deployed if attached to an IRIS database. On the other hand, a Live Aggregation Service needs an IRIS database as the source of the live data to aggregate.
+    digest: eac0adf26dc312da9b3ac41caeee8fcba1c344ae7b17e0d3b9cea4639bdf16b8
+    icon: https://ixfg9922.github.io/sds-test/isc-iris-db/icon.png
+    name: isc-iris-db
+    type: application
+    urls:
+    - https://ixfg9922.github.io/sds-test/isc-iris-db-1.2.2.tgz
+    version: 1.2.2
+generated: "2022-11-15T17:58:40.406411-05:00"

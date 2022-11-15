@@ -1,0 +1,44 @@
+# Used to specify where the deployment is being done
+cloudProvider: "dev"
+cloudProviderRegion: "dev"
+skaffold: false
+
+compute:
+  database:
+    nodeTypeSelector: ""
+    cpu: 2
+    memory: 2Gi
+
+storageDB: 
+  size : 50Gi
+  storageClass : ssd-storageclass-1
+storageWIJ: 
+  size: 25Gi
+  storageClass : ssd-storageclass-1
+storageJournal1: 
+  size: 50Gi
+  storageClass : ssd-storageclass-1
+storageJournal2: 
+  size: 3Gi
+  storageClass : ssd-storageclass-1
+
+mirrored: false
+image:
+  registry: containers.intersystems.com/iscinternal/sds
+  repository: isc-iris-db
+
+superServer:
+  enabled: true
+  hostname: "localhost"
+  port: "10000"
+
+management:
+  enabled: true
+  hostname: "localhost"
+  port: "10001"
+
+# These are the secret fields needed to successfully deploy.
+# They will be injected by the control plane:
+requiredSecrets:
+  irisLicense: ""
+  intersystemsContainerRegistrySecret: ""
