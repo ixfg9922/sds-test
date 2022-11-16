@@ -25,5 +25,5 @@ appVersion: "1.16.0"
 
 annotations:
   intersystems/sds-title: My Nginx SDS Service
-  intersystems/sds-organization: InterSystems Corporation
+#  intersystems/sds-organization: InterSystems Corporation
 #  intersystems/sds-category: core,database
