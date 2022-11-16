@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T14:39:16.908027-05:00"
+    created: "2022-11-16T14:40:57.924355-05:00"
     description: A Helm chart for Kubernetes
     digest: 7c8173d85143afde31ade084e14c3654578e60a31ce8d74e6a11889ffe1b688f
     name: extest03
@@ -17,12 +17,12 @@ entries:
     version: 0.1.0
   extest04:
   - annotations:
-      intersystems/sds-title: My Nginx SDS Service
+      intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T14:39:16.908629-05:00"
+    created: "2022-11-16T14:40:57.925006-05:00"
     description: A Helm chart for Kubernetes
-    digest: 2a17c70c5eee2bd46c3ee35ba3c5c5f06b402b3535995692c7e66c9a80ac554e
+    digest: 4603d9c23100c9a2549e68584317632b8e10b03c893ca7b642d161f4ebd7d507
     name: extest04
     type: application
     urls:
@@ -31,7 +31,7 @@ entries:
   helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T14:39:16.909884-05:00"
+    created: "2022-11-16T14:40:57.925545-05:00"
     description: A Helm chart for Kubernetes
     digest: d6296b3c222afb6592bd79be8838cb7d6df4cbce8881a805ad9db4d30b9ae036
     name: helm
@@ -46,7 +46,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.2.2
-    created: "2022-11-16T14:39:16.910504-05:00"
+    created: "2022-11-16T14:40:57.926912-05:00"
     description: Use this service to securely store you solution's tables. This service collaborates with many other services as either a destination for data or a source of data. A Kafka Connector Service for instance, can only be deployed if attached to an IRIS database. On the other hand, a Live Aggregation Service needs an IRIS database as the source of the live data to aggregate.
     digest: eac0adf26dc312da9b3ac41caeee8fcba1c344ae7b17e0d3b9cea4639bdf16b8
     icon: https://ixfg9922.github.io/sds-test/isc-iris-db/icon.png
@@ -55,4 +55,4 @@ entries:
     urls:
     - https://ixfg9922.github.io/sds-test/isc-iris-db-1.2.2.tgz
     version: 1.2.2
-generated: "2022-11-16T14:39:16.907284-05:00"
+generated: "2022-11-16T14:40:57.923624-05:00"
