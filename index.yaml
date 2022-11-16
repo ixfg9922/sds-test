@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T15:20:24.885461-05:00"
+    created: "2022-11-16T15:21:17.137601-05:00"
     description: A Helm chart for Kubernetes
     digest: 7c8173d85143afde31ade084e14c3654578e60a31ce8d74e6a11889ffe1b688f
     name: extest03
@@ -20,7 +20,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T15:20:24.886077-05:00"
+    created: "2022-11-16T15:21:17.138207-05:00"
     description: A Helm chart for Kubernetes
     digest: 09f069fe51e7aba8286a60885da765239184d9f2d44cd3a5f12b8fe6035d5c88
     name: extest04
@@ -35,7 +35,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T15:20:24.886711-05:00"
+    created: "2022-11-16T15:21:17.138765-05:00"
     description: A Helm chart for Kubernetes
     digest: 9b0ff93cef59c46a5e8db5ba8c57576be8e95ebfab9cc2dc1a0db0a575cb0e0b
     name: extest05
@@ -50,7 +50,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T15:20:24.887331-05:00"
+    created: "2022-11-16T15:21:17.139337-05:00"
     description: A Helm chart for Kubernetes
     digest: 9e86aaa8b5a54e54324e83daf387ca34c216df65a0c114ce31156102cb11f94c
     name: extest06
@@ -65,9 +65,9 @@ entries:
       intersystems/sds-title: My New Nginx Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T15:20:24.887946-05:00"
+    created: "2022-11-16T15:21:17.139978-05:00"
     description: An example SDS service
-    digest: f98f654b7f135372e554d251ffa2da2372d2de5fba84b41134185527eb08f6db
+    digest: 26ac1c8e07ce36ec8dbd65305f4608dafdd8c44591f5a9ec9b3ac6458da6678a
     name: helm
     type: application
     urls:
@@ -80,7 +80,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.2.2
-    created: "2022-11-16T15:20:24.889207-05:00"
+    created: "2022-11-16T15:21:17.141274-05:00"
     description: Use this service to securely store you solution's tables. This service collaborates with many other services as either a destination for data or a source of data. A Kafka Connector Service for instance, can only be deployed if attached to an IRIS database. On the other hand, a Live Aggregation Service needs an IRIS database as the source of the live data to aggregate.
     digest: eac0adf26dc312da9b3ac41caeee8fcba1c344ae7b17e0d3b9cea4639bdf16b8
     icon: https://ixfg9922.github.io/sds-test/isc-iris-db/icon.png
@@ -89,4 +89,4 @@ entries:
     urls:
     - https://ixfg9922.github.io/sds-test/isc-iris-db-1.2.2.tgz
     version: 1.2.2
-generated: "2022-11-16T15:20:24.884682-05:00"
+generated: "2022-11-16T15:21:17.136877-05:00"
