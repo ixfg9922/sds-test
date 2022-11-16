@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T14:41:48.727259-05:00"
+    created: "2022-11-16T14:44:24.233798-05:00"
     description: A Helm chart for Kubernetes
     digest: 7c8173d85143afde31ade084e14c3654578e60a31ce8d74e6a11889ffe1b688f
     name: extest03
@@ -20,7 +20,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T14:41:48.727957-05:00"
+    created: "2022-11-16T14:44:24.235443-05:00"
     description: A Helm chart for Kubernetes
     digest: 09f069fe51e7aba8286a60885da765239184d9f2d44cd3a5f12b8fe6035d5c88
     name: extest04
@@ -28,10 +28,23 @@ entries:
     urls:
     - https://ixfg9922.github.io/sds-test/extest04-0.1.0.tgz
     version: 0.1.0
+  extest05:
+  - annotations:
+      intersystems/sds-title: My New Nginx SDS Service
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-16T14:44:24.236426-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 5e0b32903b50e1eb9829ec8c6d6c594874e27449fa5f028abcd9c6cd2f6e0fdf
+    name: extest05
+    type: application
+    urls:
+    - https://ixfg9922.github.io/sds-test/extest05-0.1.0.tgz
+    version: 0.1.0
   helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T14:41:48.728553-05:00"
+    created: "2022-11-16T14:44:24.237266-05:00"
     description: A Helm chart for Kubernetes
     digest: d6296b3c222afb6592bd79be8838cb7d6df4cbce8881a805ad9db4d30b9ae036
     name: helm
@@ -46,7 +59,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.2.2
-    created: "2022-11-16T14:41:48.729197-05:00"
+    created: "2022-11-16T14:44:24.238126-05:00"
     description: Use this service to securely store you solution's tables. This service collaborates with many other services as either a destination for data or a source of data. A Kafka Connector Service for instance, can only be deployed if attached to an IRIS database. On the other hand, a Live Aggregation Service needs an IRIS database as the source of the live data to aggregate.
     digest: eac0adf26dc312da9b3ac41caeee8fcba1c344ae7b17e0d3b9cea4639bdf16b8
     icon: https://ixfg9922.github.io/sds-test/isc-iris-db/icon.png
@@ -55,4 +68,4 @@ entries:
     urls:
     - https://ixfg9922.github.io/sds-test/isc-iris-db-1.2.2.tgz
     version: 1.2.2
-generated: "2022-11-16T14:41:48.726476-05:00"
+generated: "2022-11-16T14:44:24.232804-05:00"
